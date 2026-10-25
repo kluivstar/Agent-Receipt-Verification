@@ -1,0 +1,27 @@
+{
+  "name": "@agentreceipt/api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "vitest run",
+    "seed": "node src/db/seed.js"
+  },
+  "dependencies": {
+    "@agentreceipt/shared": "*",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "genlayer-js": "^1.2.0",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0",
+    "vitest": "^2.1.8"
+  }
+}

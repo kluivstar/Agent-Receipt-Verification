@@ -1,0 +1,12 @@
+node_modules/
+.env
+*.log
+dist/
+coverage/
+data/
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+__pycache__/
+.pytest_cache/
+.DS_Store
